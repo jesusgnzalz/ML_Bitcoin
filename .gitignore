@@ -1,0 +1,17 @@
+# Ignorar archivos de caché y temporales
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar modelos pesados
+src/models/*.joblib
+src/models/*.pkl
+src/models/*.h5
+
+# Ignorar datasets grandes
+src/data_sample/*.csv
+src/data_sample/*.xlsx
+
+# Ignorar archivos de entorno virtual
+venv/
+.env
