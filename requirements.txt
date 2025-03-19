@@ -1,0 +1,3 @@
+Para ejecutar el proyecto, instala las dependencias con:
+```bash
+pip install -r requirements.txt
